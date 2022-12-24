@@ -1,4 +1,4 @@
-# 💫 About Me:
+## - 💫 About Me:
 
 - 👋  Hi, I’m Mert Öztürk!
 - 👨‍🎓  I'm a Computer Science Student
