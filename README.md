@@ -1,6 +1,6 @@
 ## - 💫 About Me:
 
-- 👋  Hi, I’m Mert Öztürk!
+- 👋  Hi, I’m Mert!
 - 👨‍🎓  I'm a Computer Science Student
 - 👀  I’m interested in Machine Learning
 
