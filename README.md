@@ -1,8 +1,8 @@
 ## - 💫 About Me:
 
-- 👋  Hi, I’m Mert!
-- 👨‍🎓  I'm a Computer Science Student
-- 👀  I’m interested in Machine Learning
+👋  Hi, I’m Mert!
+👨‍🎓  I'm a Computer Science Student
+👀  I’m interested in Machine Learning
 
 
 ## - 📫 How to reach me
