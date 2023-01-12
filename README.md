@@ -1,6 +1,6 @@
 ## - 💫 About Me:
 
-👋  Hi, I’m Mert!
+👋  Hi, I am Mert!
 
 👨‍🎓  I'm a Computer Science Student
 
