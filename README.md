@@ -6,7 +6,7 @@
 
 👀  I am currently interested in backend programming.
 
-📄 [My CV is here](https://github.com/mertozturksh/mertozturksh/blob/main/Ismail_Mert_Ozturk CV.pdf)
+📄 [My CV is here](https://github.com/mertozturksh/mertozturksh/blob/main/Ismail%20Mert%20Ozturk%20CV.pdf)
 
 ## - 📫 How to reach me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mertozturksh)
