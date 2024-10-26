@@ -2,7 +2,7 @@
 
 👋  Hi, I am Mert!
 
-👨‍🎓  I'm a Computer Science Student
+👨‍🎓  I'm a final year Computer Science student
 
 👀  I am currently interested in backend programming.
 
