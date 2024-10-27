@@ -28,3 +28,4 @@
 ## - 📌 Live Projects:
 
 #### E-Commerce Website | [Trendzone](https://meersoftware.online)
+#### [PHP API Boilerplate](https://github.com/mertozturksh/php-api)
