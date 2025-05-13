@@ -15,6 +15,11 @@ void yyerror (char const *);
 
 %token NUM
 
+%left '+' '-'
+%left '*' '/'
+%right '^'
+%right 'n'
+
 %%
 
 input:
