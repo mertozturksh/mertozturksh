@@ -52,25 +52,48 @@ number on the stack and the token NUM, or the numeric code
 of the character read if not a number. It skips all blanks
 and tabs, and returns 0 for end-of-input. */
 
-int
-yylex (void)
+int yylex (void)
 {
-int c;
-/* Skip white space. */
-while ((c = getchar ()) == ' ' || c == '\t')
-;
-/* Process numbers. */
-if (c == '.' || isdigit (c))
-{
-ungetc (c, stdin);
-scanf ("%lf", &yylval);
-return NUM;
-}
-/* Return end-of-input. */
-if (c == EOF)
-return 0;
-/* Return a single char. */
-return c;
+    int c;
+
+    while (1) {
+        while ((c = getchar ()) == ' ' || c == '\t')
+            ;  
+        if (c == '/') {
+            int next = getchar();
+            if (next == '*') {
+        
+                int prev = 0;
+                while ((c = getchar()) != EOF) {
+                    if (prev == '*' && c == '/') {
+                        break;
+                    }
+                    prev = c;
+                }
+                continue;
+            } else {
+                ungetc(next, stdin);
+                return c;
+            }
+        }
+
+        break;
+    }
+
+    /* Process numbers. */
+    if (c == '.' || isdigit (c))
+    {
+        ungetc (c, stdin);
+        scanf ("%lf", &yylval);
+        return NUM;
+    }
+
+    /* Return end-of-input. */
+    if (c == EOF)
+        return 0;
+
+    /* Return a single char. */
+    return c;
 }
 
 /* Called by yyparse on error. */
