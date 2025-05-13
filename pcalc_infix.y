@@ -31,11 +31,13 @@ exp: NUM { $$ = $1; }
 | exp '+' exp { $$ = $1 + $3; }
 | exp '-' exp { $$ = $1 - $3; }
 | exp '*' exp { $$ = $1 * $3; }
-| exp '/' exp { $$ = $1 / $3; }
+| exp '/' exp { $$ = $3 == 0 ? (yyerror("Division by zero"), 0) : $1 / $3; }
 /* Exponentiation */
 | exp '^' exp { $$ = pow ($1, $3); }
 /* Unary minus */
 | 'n' exp { $$ = -$2; }
+/* Parentheses */
+| '(' exp ')' { $$ = $2; }
 ;
 
 %%
